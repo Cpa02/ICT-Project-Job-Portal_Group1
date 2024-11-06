@@ -1,0 +1,71 @@
+/* Full-screen container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Profile card styling */
+  .profile-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  /* Profile image */
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  /* Name styling */
+  .profile-card h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Email styling */
+  .profile-email {
+    color: #888;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  /* Profile details */
+  .profile-details p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Edit button styling */
+  .edit-button {
+    background-color: #7ea6e0;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  /* Edit button hover effect */
+  .edit-button:hover {
+    background-color: #5d8ccf;
+  }
+  

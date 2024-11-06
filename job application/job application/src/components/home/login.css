@@ -1,0 +1,88 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: auto; 
+  background-color: #ffffff;
+  /* background-image: url('https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); Your background image */
+  background-size: cover; 
+  /* background-position: center; */
+  background-repeat: no-repeat; 
+  position: relative;
+}
+
+.login-background {
+  backdrop-filter: blur(10px); 
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); 
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.login-input {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.7); 
+  outline: none;
+  font-size: 1rem;
+}
+
+.login-input:focus {
+  border-color: #007bff;
+}
+
+.login-button {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 25px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+.login-button:hover {
+  background-color: #0056b3;
+}
+@media (max-width: 768px) {
+  .login-container {
+    padding: 20px;
+  }
+  .login-background {
+    padding: 20px;
+  }
+}
